@@ -1,0 +1,88 @@
+.header a {
+  color: #fff;
+  background-color: #337AB7;
+}
+.header .navbar {
+  background: #337AB7;
+  color: #fff !important;
+  margin: 0;
+}
+.header .navbar .container-fluid {
+  height: 90px;
+}
+.header .navbar .container-fluid .navbar-header {
+  height: 100%;
+}
+.header .navbar .container-fluid .navbar-header .navbar-brand {
+  padding: 0;
+  height: 100%;
+  clear: both;
+  vertical-align: middle;
+}
+.header .navbar .container-fluid .navbar-header .navbar-brand img {
+  height: 90px;
+  float: left;
+  padding: 15px;
+}
+.header .navbar .container-fluid .navbar-header .navbar-brand h3 {
+  color: #fff;
+  float: left;
+  font-size: 30px;
+  line-height: 90px;
+  margin: 0;
+}
+.header .navbar .container-fluid .navbar-collapse {
+  height: 100%;
+  /*小屏幕下拉显示内容*/
+}
+.header .navbar .container-fluid .navbar-collapse div {
+  height: 90px;
+  line-height: 90px;
+}
+.header .navbar .container-fluid .navbar-collapse div span {
+  font-size: 20px;
+}
+.header .navbar .container-fluid .navbar-collapse ul {
+  height: 90px;
+}
+.header .navbar .container-fluid .navbar-collapse ul li {
+  width: 160px;
+  height: 100%;
+  text-align: center;
+}
+.header .navbar .container-fluid .navbar-collapse ul li a {
+  display: block;
+  height: 100%;
+  color: #fff;
+  line-height: 90px;
+  padding: 0!important;
+  font-size: 20px;
+}
+.header .navbar .container-fluid .navbar-collapse ul li a:focus {
+  color: #000;
+  background: #e4393c;
+}
+.header .navbar .container-fluid .navbar-collapse ul li ul.dropdown-menu {
+  width: 160px;
+  padding: 0 !important;
+  border: none !important;
+}
+.header .navbar .container-fluid .navbar-collapse ul li ul.dropdown-menu li {
+  height: 100%;
+}
+.header .navbar .container-fluid .navbar-collapse ul li ul.dropdown-menu li a {
+  display: block;
+  height: 100%;
+  color: #fff;
+  line-height: 90px;
+  padding: 0;
+  font-size: 20px;
+}
+.header .navbar .container-fluid .navbar-collapse ul li ul.dropdown-menu li a:focus {
+  color: #000;
+  background: #e4393c;
+}
+.header .navbar .container-fluid .navbar-collapse ul li ul.dropdown-menu li a:hover {
+  color: #000;
+  background: #e4393c;
+}

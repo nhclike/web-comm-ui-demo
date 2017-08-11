@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>window - jQuery EasyUI Demo</title>
+	<link rel="stylesheet" type="text/css" href="../../../resources/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../../../resources/easyui/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="../../../resources/easyui/demo.css">
+	<script type="text/javascript" src="../../../resources/easyui/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../resources/easyui/jquery.easyui.min.js"></script>
+	<!--引入自己改写的easyui的window弹框样式-->
+	<link rel="stylesheet" href="window.css">
+</head>
+<body>
+	<button id="btn">点击弹出window</button>
+	<script>
+		$('#btn').click(function () {
+			openWind('btn_window','弹出框demo','iframe.html',null, null, 800, 780, null, null, 'overflow:hidden;', true, true, null)
+    });
+      /**
+       * @method openWind【公用打开easyui-window方法】
+       * @param id（String id【窗口id】）
+       * @param title（String title【窗口标题】）
+       * @param url（String url【窗口远程加载Action地址】）
+       * @param queryParams（JSON格式对象 queryParams【窗口远程加载额外参数】）
+       * @param fit（boolean fit【是否自适应充满父容器，当设置为true时，width和height无效】）
+       * @param width（number width【窗口宽度，不需要加px，默认200】）
+       * @param height（number height【窗口高度，不需要加px，默认200】）
+       * @param onOpen（function onOpen【窗口打开后回调函数】）
+       * @param onClose（function onClose【窗口关闭后回调函数】）
+       * @param style（String style【窗口自定也css的id】）
+       */
+      function openWind(id, title, url, queryParams, fit, width, height , onOpen, onClose, style, isIframe, isDraggable, isModal){
+          var $w = $("<div id=\""+id+"\" "+(style?("style=\"padding: 0px;"+style+"\""):"padding: 0px;")+"></div>");
+          $w.appendTo($("body"));
+          var _iframe = $('<iframe></iframe>');
+          _iframe.attr({
+              src: url,
+              frameborder: 0,
+              width: '100%',
+              height: '100%',
+              scrolling: 'auto'
+          });
+
+          $('#'+id).window({
+              id : id,
+              title : title,
+              href : isIframe ? null : url,
+              content : isIframe ? _iframe : null,
+              method : 'post',
+              zIndex : 10000,
+              queryParams : queryParams ? queryParams:null,
+              collapsible : false,
+              minimizable : false,
+              maximizable : false,
+              draggable : isDraggable ? isDraggable : false,
+              resizable : false,
+              modal : isModal == null  ? true : false,
+              shadow : true,
+              fit : fit,
+              width : width ? width:200,
+              height : height ? height:200,
+              onOpen : function(){
+                  if(onOpen) onOpen;
+              },
+              onClose : function(){
+                  onClose;
+                  $('#'+id).window('destroy');
+              }
+
+          });
+      }
+      function closeWind(id){
+          $('#'+id).window('destroy');
+      }
+	</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<!--1,lang="zh-cn"-->
+<head lang="zh-cn">
+	<meta charset="UTF-8">
+	<!--2,viewport-->
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<!--3,x-ua-compatible-->
+	<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+	<title></title>
+	<!--4引入两个兼容文件-->
+	<!--[if lt IE 9]>
+	<script src="../../../resources/bootstrap/js/html5shiv.min.js"></script>
+	<script src="../../../resources/bootstrap/js/respond.min.js"></script>
+	<!--<![endif]&ndash;&gt;-->
+	<!--6引入bootstrap.css-->
+	<link rel="stylesheet" href="../../../resources/bootstrap/css/bootstrap.min.css"/>
+	<!--导航头部样式必须引入-->
+	<link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+
+<div class="header">
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<div class="navbar-brand" href="#">
+						<img src="../icons/logo.png" alt="">
+						<h3>人民检察院审讯指挥系统</h3>
+				</div>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_logo">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<!--小屏幕下拉显示-->
+			<div class="collapse navbar-collapse navbar-right" id="nav_logo">
+				<div class="navbar-left">
+					<span>上午好</span>,
+					<span>developer</span>
+					<img src="../icons/developer.png" alt="">
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="#">
+						<span class="glyphicon glyphicon-question-sign"></span>
+						帮助
+					</a>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+						<span class="glyphicon glyphicon-cog"></span>
+						系统
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="">用户</a></li>
+						<li><a href="">角色</a></li>
+						<li><a href="">菜单</a></li>
+						<li><a href="">部门</a></li>
+						<li><a href="">设备</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+						<span class="glyphicon glyphicon-user"></span>
+						用户信息
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="">退出登录</a></li>
+					</ul>
+				</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div style="margin-top: 200px">
+	<h1>使用说明：</h1>
+	<p>
+		1：demo样式均来自navbar.css,无任何内联样式，运用时可自行设置
+		<br>
+		2：class除了.header都来自bootstrap框架,可自行添加编写class，但尽量不要删除，更改已经写好的class
+		<br>
+		3：html结构不要改变，图标可自行更换，注意路径的调整
+		<br>
+		4：文件引入时，自行更改路径
+		<br>
+		5:css样式更改只需更改变量参数
+		<img src="../icons/revise.png" alt="">
+	</p>
+</div>
+
+<!--引入jquery,bootstrap js-->
+<script src="../../../resources/bootstrap/js/jquery-1.11.3.js"></script>
+<script src="../../../resources/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

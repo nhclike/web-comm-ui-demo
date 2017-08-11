@@ -1,0 +1,65 @@
+.window {
+	@header_height:60px;
+	@header_bg_color:#0093F9;
+	@header_text_font_color:28px;
+	overflow: hidden;
+	padding: 0px;
+	/*   关键设置 */
+
+	border: none;
+	.window-header {
+		padding:10px;
+		/*   关键设置 */
+		background:@header_bg_color;
+		height:@header_height;
+		filter:none;
+		.panel-title{
+			font-size:@header_text_font_color;
+			color: #fff;
+			line-height: 38px;
+			font-weight: normal;
+		}
+		.panel-tool{
+			width: 20px;
+			height: 20px;
+			margin-right: 20px;
+			a.panel-tool-close{
+				width: 20px;
+				height: 20px;
+				background: url("../icons/close.png") no-repeat 0 0;
+				margin: 0;
+			}
+		}
+	}
+}
+.messager-window.window{
+	.window-header{
+		background:#E6F0FF !important;
+		padding:6px!important;
+		height: 30px;
+		filter:none;
+		.panel-title{
+			font-size: 12px;
+			font-weight: bold;
+			color: #0E2D5F;
+			height: 16px;
+			line-height: 16px;
+		}
+		.panel-tool{
+			width: 10px;
+			height: 10px;
+			margin-right: 10px;
+			margin-top: -7px;
+			a.panel-tool-close{
+				width: 10px;
+				height: 10px;
+				//background:url("../images/close.png") no-repeat 0 0;
+				background-size:100% 100%;
+				margin: 0;
+			}
+		}
+	}
+}
+.window-shadow{
+	display: none !important;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<!--1,lang="zh-cn"-->
+<head lang="zh-cn">
+	<meta charset="UTF-8">
+	<title>menu_demo</title>
+	<!--菜单加布局头部样式必须引入-->
+	<link rel="stylesheet" href="menu.css">
+</head>
+<body>
+	<div id="header" style="width: 100%;height: 90px;border:1px solid #ddd">
+		<h1>header</h1>
+	</div>
+	<div class="section">
+		<div class="main_container">
+				<!--左边菜单栏-->
+				<div class=" Menu">
+					<ul class="mainMenu">
+						<li>
+							<div class="titleMenu clearfloat">
+								<img src="../../icon/court.png" class="pull-left" alt="">
+								<span class="pull-left">法院</span>
+								<img src="../../icon/blue_down.png" class="pull-right" alt="">
+							</div>
+							<ul class="subMenu">
+								<li>子菜单1</li>
+								<li>子菜单2</li>
+								<li>子菜单3</li>
+							</ul>
+						</li>
+						<li>
+							<div class="titleMenu clearfloat">
+								<img src="../../icon/commit.png" class="pull-left" alt="">
+								<span class="pull-left">检察院</span>
+								<img src="../../icon/blue_down.png" class="pull-right" alt="">
+							</div>
+							<ul class="subMenu">
+								<li>子菜单1</li>
+								<li>子菜单2</li>
+								<li>子菜单3</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!--右边切换内容-->
+				<div id="context_show">
+					<h1>content</h1>
+					<!--<iframe id="pageContent" src="../../iframe.html" style="border: 0px; width: 100%; height: 100%; top: 0px;" scrolling="no"></iframe>-->
+					<h1>使用说明</h1>
+					<p>
+						1：所有class为自定义class，不需要依赖任何框架，只需引入menu.css和jquery.js，自行编写class时避免重复
+						<br>
+						2：html结构不可更改，菜单文本，图标可自定义修改，不会影响布局
+						<br>
+						3：采用position已经做好header高度固定，sidebar的菜单宽度固定的，中间内容自适应的整体布局，调整header和菜单，只需更改less中@menu_width和@header_height即可
+						<br>
+						4：更改菜单行高，字体，颜色风格，只需更改对应变量
+						<br>
+						<img src="../../icon/revise.png" alt="">
+						<br>
+						5：若改动幅度过大，一级菜单的图标会有偏差只需微调图标位置
+						<br>
+						<img src="../../icon/revise1.png" alt="">
+					</p>
+				</div>
+		</div>
+	</div>
+
+<!--引入jquery,bootstrap js-->
+<script src="../../../../resources/bootstrap/js/jquery-1.11.3.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        //设置高度
+        var container_height = $(window).height() - 90 + 'px';
+        $('.section .main_container').height(container_height);
+        $('.section .main_container .Menu').height(container_height);
+        $('#context_show').height(container_height);
+        //左侧菜单栏伸缩
+        $('.subMenu').hide();
+        $('.subMenu').delay(400).slideDown(700);
+        $('.subMenu').find('li').first().addClass('chosen');
+        //点击子菜单变颜色
+        $('.subMenu').on('click', 'li', function () {
+            $('.subMenu').find('li').removeClass('chosen');
+            $(this).addClass('chosen');
+        });
+        //点击主菜单收缩
+        $('.mainMenu').on('click', '.titleMenu', function () {
+            $(this).next('.subMenu').slideToggle().parent().siblings('.subMenu').slideUp();
+        });
+    });
+</script>
+</body>
+</html>

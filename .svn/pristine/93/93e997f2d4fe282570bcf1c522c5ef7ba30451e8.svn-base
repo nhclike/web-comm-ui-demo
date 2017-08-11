@@ -1,0 +1,58 @@
+.window {
+  overflow: hidden;
+  padding: 0px;
+  /*   关键设置 */
+  border: none;
+}
+.window .window-header {
+  padding: 10px;
+  /*   关键设置 */
+  background: #0093F9;
+  height: 60px;
+  filter: none;
+}
+.window .window-header .panel-title {
+  font-size: 28px;
+  color: #fff;
+  line-height: 38px;
+  font-weight: normal;
+}
+.window .window-header .panel-tool {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.window .window-header .panel-tool a.panel-tool-close {
+  width: 20px;
+  height: 20px;
+  background: url("../icons/close.png") no-repeat 0 0;
+  margin: 0;
+}
+.messager-window.window .window-header {
+  background: #E6F0FF !important;
+  padding: 6px!important;
+  height: 30px;
+  filter: none;
+}
+.messager-window.window .window-header .panel-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #0E2D5F;
+  height: 16px;
+  line-height: 16px;
+}
+.messager-window.window .window-header .panel-tool {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  margin-top: -7px;
+}
+.messager-window.window .window-header .panel-tool a.panel-tool-close {
+  width: 10px;
+  height: 10px;
+  background-size: 100% 100%;
+  margin: 0;
+}
+.window-shadow {
+  display: none !important;
+}

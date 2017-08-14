@@ -1,0 +1,105 @@
+/*模态框*/
+.modal{
+	.modal_center{
+		width:1000px;//自定义大小
+		height:800px;
+		position:relative;//始终居中
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		.modal-content{
+			width: 100%;
+			height: 100%;
+			.modal-header{
+				width: 100%;
+				height: 10%;
+				background: #237AE5;
+				color:#fff;
+				a{
+					font-size:50px!important;
+					color:#fff;
+					text-decoration: none;
+					&:link{
+						text-decoration: none;
+					}
+					&:hover{
+						text-decoration: none;
+					}
+					&:visited{
+						text-decoration: none;
+					}
+					&:active{
+						text-decoration: none;
+					}
+				}
+				h4{
+					font-size:35px!important;
+					font-weight:normal;
+					color:#fff;
+				}
+			}
+			.modal-body{
+				width: 100%;
+				height: 90%;
+				#container{
+					width: 100%;
+					height:100%;
+					#left{
+						width: 20%;
+						height: 100%;
+						position: relative;
+						top:0;
+						left:0;
+						background:#E7F1FF ;
+						float: left;
+						div.left_up{
+							width: 100%;
+							height:80%;
+							position: absolute;
+							top:0;
+							left: 0;
+							border: 1px solid  #ddd;
+						}
+						div.left_down{
+							width: 100%;
+							height:20%;
+							position: absolute;
+							top:80%;
+							left: 0;
+							border: 1px solid  #ddd;
+						}
+					}
+					#right{
+						width:80%;
+						height: 100%;
+						position: relative;
+						top:0;
+						left:0;
+						float: left;
+						div.right_up{
+							width: 100%;
+							height:20%;
+							position: absolute;
+							top:0;
+							left: 0;
+							border: 1px solid  #ddd;
+						}
+						div.right_down{
+							width: 100%;
+							height:80%;
+							position:absolute;
+							top:20%;
+							left:0;
+							border: 1px solid  #ddd;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

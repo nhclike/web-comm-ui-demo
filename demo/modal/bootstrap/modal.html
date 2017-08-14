@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<!--1,lang="zh-cn"-->
+<head lang="zh-cn">
+	<meta charset="UTF-8">
+	<!--2,viewport-->
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<!--3,x-ua-compatible-->
+	<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+	<title></title>
+	<!--4引入两个兼容文件-->
+	<!--[if lt IE 9]>
+	<script src="../../../resources/bootstrap/js/html5shiv.min.js"></script>
+	<script src="../../../resources/bootstrap/js/respond.min.js"></script>
+	<!--<![endif]&ndash;&gt;-->
+	<!--6引入bootstrap.css-->
+	<link rel="stylesheet" href="../../../resources/bootstrap/css/bootstrap.min.css"/>
+	<!--导航头部样式必须引入-->
+	<link rel="stylesheet" href="modal.css">
+</head>
+<body>
+<div class="modal fade" id="alarmModal">
+	<div class="modal_center">
+		<div class="modal-content">
+			<div class="modal-header">
+				<a class="close"  data-dismiss="modal">&times;
+				</a>
+				<h4 class="modal-title">模态框</h4>
+			</div>
+			<div class="modal-body">
+				<div id="container">
+					<div id="left">
+						<div class="left_up">
+							<h1>left_up</h1>
+						</div>
+						<div class="left_down">
+							<h1>left_down</h1>
+						</div>
+					</div>
+					<div id="right">
+						<div class="right_up">
+							<h1>right_up</h1>
+						</div>
+						<div class="right_down">
+							<h1>right_down</h1>
+							<h1>使用说明</h1>
+							<p>1：自定义大小模态框;.modal_center控制居中和模态框大小</p>
+							<p>2：header和body可自定义按height的百分比分配</p>
+							<p>3：modal-body内部自由布局；外层左右布局使用float；可以自定左右分割比例</p>
+							<p>4：左右内部，可通过position：absolute再次自定义布局</p>
+							<p>使用场景：多层复杂布局；自义定模态框大小，打破原有的模态框大小布局限制</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--引入jquery,bootstrap js-->
+<script src="../../../resources/bootstrap/js/jquery-1.11.3.js"></script>
+<script src="../../../resources/bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+    var $modal_alarm = $('#alarmModal');
+    $modal_alarm.modal('show');
+    $modal_alarm.modal({backdrop: 'static', keyboard: true});
+</script>
+</body>
+</html>

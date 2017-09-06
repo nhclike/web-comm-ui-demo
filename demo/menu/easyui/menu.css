@@ -1,0 +1,65 @@
+.easyui-accordion .panel .panel-header.accordion-header {
+  background: #fff;
+  border: none;
+  height: 50px;
+}
+.easyui-accordion .panel .panel-header.accordion-header .panel-title {
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  color: #2399F1;
+}
+.easyui-accordion .panel .panel-header.accordion-header .panel-icon {
+  left: 60px;
+  width: 20px;
+  height: 20px;
+}
+.easyui-accordion .panel .panel-header.accordion-header .title2:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../icon/system.png') no-repeat 0 0;
+  background-size: 20px 20px;
+}
+.easyui-accordion .panel .panel-header.accordion-header .panel-tool a.accordion-expand {
+  width: 20px;
+  height: 20px;
+  background: url('../icon/down.png') no-repeat 0 0;
+  background-size: 15px 10px;
+}
+.easyui-accordion .panel .panel-header.accordion-header.accordion-header-selected {
+  background-color: #2399F1;
+}
+.easyui-accordion .panel .panel-header.accordion-header.accordion-header-selected .panel-title {
+  color: #fff;
+}
+.easyui-accordion .panel .panel-header.accordion-header.accordion-header-selected .title2:before {
+  background: url('../icon/system_1.png') no-repeat 0 0;
+  background-size: 20px 20px;
+}
+.easyui-accordion .panel .panel-header.accordion-header.accordion-header-selected .panel-tool a.accordion-collapse {
+  background: url('../icon/up.png') no-repeat 0 0;
+}
+.easyui-accordion .panel .panel-body.accordion-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.easyui-accordion .panel .panel-body.accordion-body ul li {
+  text-align: center;
+}
+.easyui-accordion .panel .panel-body.accordion-body ul li a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+}
+.easyui-accordion .panel .panel-body.accordion-body ul li a:hover {
+  color: #2399F1;
+  cursor: pointer;
+}
+.easyui-accordion .panel .panel-body.accordion-body ul li .second-btn-active {
+  color: #2399F1;
+}

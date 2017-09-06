@@ -1,0 +1,78 @@
+.easyui-accordion{
+	@theme_color:#2399F1;
+	@wit_bg_color:#fff;
+	@menu_height:50px;
+	.panel{
+		.panel-header.accordion-header{//一级菜单整体高度，背景样式
+			background: @wit_bg_color;
+			border:none;
+			height: @menu_height;
+			.panel-title{//一级标题文字样式
+				font-size: 20px;
+				height:@menu_height;
+				line-height:@menu_height;
+				vertical-align: middle;
+				text-align: center;
+				color: @theme_color;
+			}
+			.panel-icon{
+				left:60px;//决定一级菜单图标位置
+				width: 20px;
+				height: 20px;
+			}
+			.title2:before{//一级菜单图标自定义
+				content: "";
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				background: url('../icon/system.png') no-repeat 0 0;
+				background-size: 20px 20px;
+			}
+			.panel-tool{
+				a.accordion-expand{
+					width: 20px;
+					height: 20px;
+					background: url('../icon/down.png') no-repeat 0 0;
+					background-size: 15px 10px;
+				}
+			}
+		}
+		.panel-header.accordion-header.accordion-header-selected{//一级菜单选中后的样式自定义
+			background-color: @theme_color;
+			.panel-title{
+				color:@wit_bg_color;
+			}
+			.title2:before{
+					background: url('../icon/system_1.png') no-repeat 0 0;
+					background-size: 20px 20px;
+			}
+			.panel-tool{
+				a.accordion-collapse{
+					background: url('../icon/up.png') no-repeat 0 0 ;
+				}
+			}
+		}
+		.panel-body.accordion-body{//二级菜单样式自定义
+			ul{
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				li{
+					text-align: center;
+					a{
+						display: block;
+						height: @menu_height;
+						line-height: @menu_height;
+						&:hover{//自定义二级菜单选中样式
+							color: @theme_color;
+							cursor: pointer;
+						}
+					}
+					.second-btn-active{
+						color: @theme_color;
+					}
+				}
+			}
+		}
+	}
+}

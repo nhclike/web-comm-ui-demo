@@ -1,0 +1,150 @@
+@theme_color:#0093f9;
+#section{
+	padding: 30px 50px;
+	h2{
+		margin:0;
+	}
+	form{
+		margin-top:20px;
+		.form-group{
+			label{
+				color:#596e81;
+				font-size:24px;
+				line-height: 24px;
+				font-weight: normal;
+				margin: 0 10px 0 30px ;
+			}
+			select{
+				width: 180px;
+				height: 40px;
+				font-size: 20px;
+				color:#acacac;
+				border: solid 1px #ddd;
+				appearance:none;
+				-moz-appearance:none;
+				-webkit-appearance:none;
+				background: url("../images/down.png") no-repeat scroll 155px center transparent;
+				padding-right: 14px;
+			}
+			select::-ms-expand { display: none; }
+			input{
+				width: 180px;
+				height: 40px;
+				font-size: 20px;
+			}
+			button{
+				width: 120px;
+				height: 40px;
+				background: @theme_color;
+				border-radius:3px;
+				font-size:20px;
+				box-shadow: 0 4px -10px outer;
+				margin: 0 10px;
+				padding: 2px 12px;
+				outline: none;
+			}
+		}
+	}
+	div.bootstrap-table{
+		font-size:20px;
+
+		div.fixed-table-container{
+			padding: 0;
+			height: 587px;
+			border: none!important;
+			div.fixed-table-header{
+				background: #F1F6FF;
+				color:#596e81;
+				border:1px solid #ddd;
+				table{
+					padding: 0;
+					border-bottom: none;
+					thead{
+						tr{
+							height: 36px;
+							th{
+								border:none;
+								div.th-inner{
+									font-size:22px;
+									line-height: 36px;
+									text-align: center;
+									font-weight: normal;
+								}
+							}
+						}
+					}
+				}
+			}
+			div.fixed-table-body{
+				height: 533px;
+				border:1px solid #ddd;
+				table{
+					color:#acacac;
+					font-size: 20px;
+					font-weight: normal;
+					border:none;
+					table-layout:fixed;      /* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */
+					thead{
+						tr{
+							height: 48px;
+							th{
+								border:none;
+								div.th-inner{
+									font-size:24px;
+									line-height: 48px;
+									text-align: center;
+									font-weight: normal;
+								}
+							}
+						}
+					}
+					tbody{
+						overflow-y: scroll;
+						overflow-x:hidden;
+						height: 533px;
+						tr{
+							height: 36px;
+							border-bottom: 1px solid #ddd;
+							background: #fff;
+							td{
+								border:none;
+								font-size:20px;
+								line-height:36px;
+								text-align: center;
+								font-weight: normal;
+								vertical-align: middle;
+								width:100%;
+								word-break:keep-all;     /* 不换行 */
+								white-space:nowrap;      /* 不换行 */
+								overflow:hidden;         /* 内容超出宽度时隐藏超出部分的内容 */
+								text-overflow:ellipsis;  /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+								cursor: pointer;
+								button{
+									width:90px;
+									height:36px;
+									line-height: 34px;
+									vertical-align: middle;
+									margin: 0 10px;
+									padding: 0px 12px;
+									background: @theme_color;
+									font-size: 18px;
+									color:#fff;
+									outline: none;
+								}
+							}
+						}
+					}
+				}
+			}
+			div.fixed-table-pagination{
+				margin-top: 10px;
+				.pagination-detail{
+					span.pagination-info{
+						font-size:22px;
+						color:#596e81
+					}
+				}
+			}
+		}
+	}
+}

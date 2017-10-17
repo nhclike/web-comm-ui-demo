@@ -1,0 +1,121 @@
+/* inquire */
+.inquire {
+  background: #fff;
+  padding: 20px 12px 20px 0;
+  border-radius: 3px;
+}
+.inquire .form-inline .form-group {
+  margin-bottom: 15px;
+}
+.inquire .form-inline .form-control {
+  width: 100%;
+}
+.inquire .form-inline .control-label {
+  padding: 0;
+  text-align: right;
+  height: 34px;
+  line-height: 34px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #666;
+}
+#table_container div.bootstrap-table {
+  font-size: 20px;
+}
+#table_container div.bootstrap-table div.fixed-table-container {
+  padding: 0;
+  height: 587px;
+  border: none !important;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-header {
+  background: #E6F0FF;
+  color: #424345;
+  border: 1px solid #E5E5E5;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-header table {
+  padding: 0;
+  border-bottom: none;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-header table thead tr {
+  height: 36px;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-header table thead tr th {
+  border: none;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-header table thead tr th div.th-inner {
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: normal;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-body {
+  height: 533px;
+  border: 1px solid #E5E5E5;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-body table {
+  color: #666;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  table-layout: fixed;
+  /* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-body table thead tr {
+  height: 48px;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-body table thead tr th {
+  border: none;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-body table thead tr th div.th-inner {
+  font-size: 20px;
+  line-height: 48px;
+  text-align: center;
+  font-weight: normal;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-body table tbody {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 533px;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-body table tbody tr {
+  height: 36px;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-body table tbody tr td {
+  border: none;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: normal;
+  vertical-align: middle;
+  width: 100%;
+  word-break: keep-all;
+  /* 不换行 */
+  white-space: nowrap;
+  /* 不换行 */
+  overflow: hidden;
+  /* 内容超出宽度时隐藏超出部分的内容 */
+  text-overflow: ellipsis;
+  /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+  cursor: pointer;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-body table tbody tr td button {
+  width: 90px;
+  height: 36px;
+  line-height: 34px;
+  vertical-align: middle;
+  margin: 0 10px;
+  padding: 0 12px;
+  background: #237AE5;
+  font-size: 20px;
+  color: #fff;
+  outline: none;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-pagination {
+  margin-top: 10px;
+}
+#table_container div.bootstrap-table div.fixed-table-container div.fixed-table-pagination .pagination-detail span.pagination-info {
+  font-size: 18px;
+  color: #596e81;
+}

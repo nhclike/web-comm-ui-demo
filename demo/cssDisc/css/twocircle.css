@@ -1,0 +1,236 @@
+
+/* end logo */
+
+.csstransforms .cn-wrapper li, .csstransforms2 .cn-wrapper2 li {
+	position: absolute;
+	transform-origin: 100% 100%;/* 变形原点，bottom right | right bottom 等价于 100% 100% ,每一项的变换原点设置成他们的右下角*/
+	overflow: hidden;
+	left: 40%;
+	top:150px;
+
+}
+
+.csstransforms .cn-wrapper li a, .csstransforms2 .cn-wrapper2 li a {
+	box-sizing: border-box;/* 为了设置内边距让字体居中一点的时候不会让圆变形 */
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;/* 为了确保a标签中的文字/图标出现在可见部分，将内容居中对齐 */
+	transition: opacity 0.3s, color 0.3s;
+}
+.csstransforms .cn-wrapper li {
+	font-size: 1.2em;
+	width: 10em;
+	height: 10em;
+	margin-top: -1.3em;
+	margin-left: -8em;
+}
+
+.csstransforms .cn-wrapper li a {
+	font-size: 1.18em;
+	height: 13em;
+	width: 13em;
+	bottom: -6.5em;
+	right: -6.5em;
+	transform: skew(-45deg) rotate(-68.5deg) scale(1);/* 反向倾斜a标签，意味着按列表项需要按相反的值倾斜， 然后用- [90 – (x/2) ]的值反向 旋转，x是圆心角的值。那么对于45度的圆心角，我们需要倾斜a标签-40度并且按-[ 90 – (40/2) ] = -68.5 度旋转 */
+	padding-top: 10px;
+}
+
+
+.csstransforms2 .cn-wrapper2 li {
+	font-size: 1.3em;
+	width: 6.5em;
+	height: 6.5em;
+	margin-top: 1.6em;
+	margin-left: -4.7em;
+	transition: border .3s ease;
+}
+
+.csstransforms2 .cn-wrapper2 li a {
+	font-size: 1.18em;
+	height: 8em;
+	width: 8em;
+	bottom: -4em;
+	right: -4em;
+	transform: rotate(-45deg) scale(1);
+	padding-top: 15px;
+}
+
+/* 外圈旋转与倾斜 */
+.csstransforms .cn-wrapper li:first-child {
+	transform: skew(45deg);/* 90deg-xdeg,  x是你想得到的圆心角的值。*/
+}
+
+.csstransforms .cn-wrapper li:nth-child(2) {
+	transform: rotate(45deg) skew(45deg);
+}
+
+.csstransforms .cn-wrapper li:nth-child(3) {
+	transform: rotate(90deg) skew(45deg)
+}
+
+.csstransforms .cn-wrapper li:nth-child(4) {
+	transform: rotate(135deg) skew(45deg);
+}
+
+.csstransforms .cn-wrapper li:nth-child(5) {
+	transform: rotate(180deg) skew(45deg);
+}
+
+.csstransforms .cn-wrapper li:nth-child(6) {
+	transform: rotate(225deg) skew(45deg);
+}
+
+.csstransforms .cn-wrapper li:nth-child(7) {
+	transform: rotate(270deg) skew(45deg);
+}
+
+.csstransforms .cn-wrapper li:nth-child(8) {
+	transform: rotate(315deg) skew(45deg);
+}
+
+/* 修改外圈背景颜色 */
+.csstransforms .cn-wrapper li:nth-child(1) a {
+	background-color: #70a4cc;/* 血氧 */
+}
+
+.csstransforms .cn-wrapper li:nth-child(2) a {
+	background-color: #0a71bc;/* 心率 */
+}
+.csstransforms .cn-wrapper li:nth-child(3) a {
+	background-color: #70a4cc;/* 呼吸 */
+}
+.csstransforms .cn-wrapper li:nth-child(4) a {
+	background-color: #0a71bc;/* 体温 */
+}
+.csstransforms .cn-wrapper li:nth-child(5) a {
+	background-color: #70a4cc;/* 体重 */
+}
+.csstransforms .cn-wrapper li:nth-child(6) a {
+	background-color: #0a71bc;/* 身高 */
+}
+.csstransforms .cn-wrapper li:nth-child(7) a {
+	background-color: #70a4cc;/* 血压 */
+}
+.csstransforms .cn-wrapper li:nth-child(8) a {
+	background-color: #0a71bc;/* BMI */
+}
+
+/* 内圈旋转与倾斜 */
+.csstransforms2 .cn-wrapper2 li:first-child {
+
+}
+
+.csstransforms2 .cn-wrapper2 li:nth-child(2) {
+	transform: rotate(90deg);
+}
+
+.csstransforms2 .cn-wrapper2 li:nth-child(3) {
+	transform: rotate(180deg);
+}
+
+.csstransforms2 .cn-wrapper2 li:nth-child(4) {
+	transform: rotate(270deg);
+}
+
+/*  修改内圈背景颜色 */
+.csstransforms2 .cn-wrapper2 li:nth-child(1) a {
+	background-color: #70a4cc;/* 睡眠 */
+}
+
+.csstransforms2 .cn-wrapper2 li:nth-child(2) a {
+	background-color: #0a71bc;/* 运动 */
+}
+.csstransforms2 .cn-wrapper2 li:nth-child(3) a {
+	background-color: #70a4cc;/* 饮食 */
+}
+.csstransforms2 .cn-wrapper2 li:nth-child(4) a {
+	background-color: #0a71bc;/* 情绪 */
+}
+
+/* 最里层 */
+.lat {
+	height: 5em;
+	width: 5em;
+	position: absolute;
+	left: 41%;
+	top: 285px;
+	margin-top: -8px;
+	margin-left: -6px;
+	background-color: #0a71bc;
+	border-radius: 50%;
+
+}
+.lat .img {
+	height: 3em;
+	width: 3em;
+	margin: 4px 0 0 15px;
+}
+.lat img {
+	display: block;
+	width: 100%;
+}
+
+/*!*  @media screen and (max-width:480px){
+
+} *!
+
+@media screen and (max-width:320px){
+	.csstransforms .cn-wrapper li, .csstransforms2 .cn-wrapper2 li {
+		left: 38%;
+		top:100px;
+	}
+
+	.csstransforms .cn-wrapper li a {
+		font-size: 1em;
+		height: 12em;
+		width: 12em;
+		bottom: -6em;
+		right: -6em;
+	}
+
+	.csstransforms2 .cn-wrapper2 li a {
+		font-size: 1em;
+		height: 7em;
+		width: 7em;
+		bottom: -3.5em;
+		right: -3.5em;
+		padding-top: 10px;!* 为了设置内边距的时候不会让圆变形 *!
+	}
+	.lat {
+		height: 4em;
+		width: 4em;
+		left: 34%;
+		top: 243px;
+		margin-top: -8px;
+		margin-left: 18px;
+
+	}
+	.lat .img {
+		height: 2em;
+		width: 2em;
+		margin: 8px 0 0 15px;
+	}
+	.lat img {
+		display: block;
+		width: 100%;
+	}
+}
+
+.cn-overlay{
+	width:100%
+	height:100%;
+	background-color: #eeedf3;
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	transition: all .3s ease;
+	z-index:-2;
+	pointer-events:auto;
+	opacity:0.8;
+}*/
+

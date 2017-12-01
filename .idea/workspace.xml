@@ -1,18 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31bf03f6-36ba-4a7d-96fb-74a1e9cfa993" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/modal/bootstrap/addModal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/modal/bootstrap/modaltest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/table/bootstrap_table/Lasttable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/table/bootstrap_table/Lasttable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/table/bootstrap_table/Lasttable.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/table/bootstrap_table/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/table/bootstrap_table/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/table/bootstrap_table/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/table/bootstrap_table/table.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/table/jquery_grid/table.css" />
+    <list default="true" id="31bf03f6-36ba-4a7d-96fb-74a1e9cfa993" name="Default" comment="【问题描述】：增加table和自定义动态生成modal&#10;【问题解决】：增加table和自定义动态生成modal&#10;【代码修改人】：倪红成">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/cssDisc/icon/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/jquery-chou-jiang/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/jquery-chou-jiang/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/jquery-chou-jiang/images/buttons_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/jquery-chou-jiang/images/disc-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/jquery-chou-jiang/images/disc-rotate.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/cssDisc/css/onecircle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/cssDisc/css/twocircle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/cssDisc/onecircle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/cssDisc/self3dcircle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/cssDisc/twocircle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/jquery-chou-jiang/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/jquery-chou-jiang/js/jQueryRotate.2.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/jquery-chou-jiang/js/jquery-1.8.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/bar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/chord.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/eventRiver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/force.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/gauge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/k.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/radar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/scatter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/treemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/venn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/chart/wordCloud.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/echarts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/js/jquery-1.8.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/map/mapdemo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/resources/bootstrap/js/bootstrap.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,46 +51,64 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="modal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modal.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="jquery-1.8.2.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/jquery-chou-jiang/js/jquery-1.8.2.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addModal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/addModal.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/jquery-chou-jiang/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="k.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/map/js/chart/k.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/map/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4845">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapdemo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/map/mapdemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4293">
+              <caret line="294" column="36" lean-forward="true" selection-start-line="285" selection-start-column="16" selection-end-line="294" selection-end-column="36" />
               <folding>
-                <marker date="1508228974793" expanded="true" signature="1917:1965" ph="..." />
-                <marker date="1508228974793" expanded="true" signature="2059:2090" ph="..." />
-                <marker date="1508228974793" expanded="true" signature="2227:2252" ph="..." />
-                <marker date="1508228974793" expanded="true" signature="2595:2646" ph="..." />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/table/jquery_grid/table.css">
+      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/map/js/chart/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modaltest.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modaltest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1482">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -75,8 +120,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Less File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -84,6 +130,7 @@
     <findStrings>
       <find />
       <find>plugin</find>
+      <find>\&lt;\!DOCTYPE html\&gt;\n\&lt;html\&gt;\n\&lt;head\&gt;\n\&lt;meta http\-equiv\=\&quot;Content\-Type\&quot; content\=\&quot;text\/html\; charset\=UTF\-8\&quot;\&gt;\n\&lt;title\&gt;基于jQuery和CSS3的圆盘抽奖在线演示\&lt;\/title\&gt;\n\&lt;script class\=\&quot;jquery library\&quot; src\=\&quot;js\/jquery\-1\.8\.2\.min\.js\&quot; type\=\&quot;text\/javascript\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;script type\=\&quot;text\/javascript\&quot; src\=\&quot;js\/jQueryRotate\.2\.2\.js\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;\/head\&gt;\n\&lt;body\&gt;\n\&lt;div id\=\&quot;lottery\&quot; style\=\&quot;position\: absolute\; left\: 459px\; top\: 160px\&quot;\&gt;\n\	\&lt;img id\=\&quot;imgs\&quot; src\=\&quot;images\/disc\-rotate\.gif\&quot; viewbox\=\&quot;0 0 352 30\&quot; style\=\&quot;position\: absolute\; left\: 47px\; top\: 47px\; width\: 352px\; height\: 352px\;\&quot; id\=\&quot;imgs\&quot; class\=\&quot;image\&quot; \/\&gt;\n\	\&lt;div class\=\&quot;arrow\&quot;\&gt;\n\	\&lt;\/div\&gt;\n\	\&lt;div class\=\&quot;lot\-btn first\&quot;\&gt;\n\	\	\&lt;span\&gt;\&lt;\/span\&gt;\&lt;\/div\&gt;\n\&lt;\/div\&gt;\n\n\&lt;\/body\&gt;\n\n\&lt;\/html\&gt;\n\&lt;style\&gt;\#lottery \{\nbackground\: url\(\&quot;images\/disc\-bg\.gif\?v\=79804\&quot;\) no\-repeat scroll 0 0 transparent\;\nheight\: 450px\;\nleft\: 50px\;\nposition\: absolute\;\nwidth\: 450px\;\n\}\n\#lottery \.arrow \{\nbackground\: url\(\&quot;images\/arrow\.png\?v\=1bde2\&quot;\) no\-repeat scroll 0 0 transparent\;\nheight\: 191px\;\nleft\: 207px\;\nposition\: absolute\;\ntop\: 91px\;\nwidth\: 32px\;\n\}\n\#lottery \.lot\-btn \{\nheight\: 92px\;\nleft\: 177px\;\noverflow\: hidden\;\nposition\: absolute\;\ntop\: 181px\;\nwidth\: 91px\;\n\}\n\#lottery \.lot\-btn span \{\ncursor\: pointer\;\ndisplay\: block\;\nheight\: 92px\;\nposition\: relative\;\nwidth\: 91px\;\n\}\n\n\#lottery \.first span \{\nbackground\: url\(\&quot;images\/buttons_01\.png\?v\=8bc8e\&quot;\) no\-repeat scroll 0 0 transparent\;\n\}\&lt;\/style\&gt;\n\&lt;script\&gt;\$\(function\(\) \{\n\n\$\(\&quot;\.lot\-btn\&quot;\)\.click\(function\(\) \{\n\nfor \(var i \= 0\; i \&lt;\= 10000\; i\+\+\) \{\n\n\$\(\&quot;\#imgs\&quot;\)\.rotate\(\{\nanimateTo\: i\,\nduration\: 10000\n\}\)\;\nif \(i \&gt;\= 3986\) \{\n\nbreak\;\n\}\n\n\}\n\}\)\n\n\}\)\;\&lt;\/script\&gt;\n\&lt;div style\=\&quot;text\-align\:center\;clear\:both\&quot;\&gt;\n\&lt;script src\=\&quot;\/gg_bd_ad_720x90\.js\&quot; type\=\&quot;text\/javascript\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;script src\=\&quot;\/follow\.js\&quot; type\=\&quot;text\/javascript\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;\/div\&gt;</find>
     </findStrings>
     <dirStrings>
       <dir>E:\GitHub\webCommonDemo</dir>
@@ -106,6 +153,14 @@
         <option value="$PROJECT_DIR$/demo/menu/easyui/menu.css" />
         <option value="$PROJECT_DIR$/demo/menu/easyui/menu.html" />
         <option value="$PROJECT_DIR$/demo/menu/easyui/menu.less" />
+        <option value="$PROJECT_DIR$/demo/cssDisc/discDemo.html" />
+        <option value="$PROJECT_DIR$/demo/cssDisc/css/shouye.css" />
+        <option value="$PROJECT_DIR$/demo/cssDisc/discDemotest1.html" />
+        <option value="$PROJECT_DIR$/demo/cssDisc/css/twocircle.css" />
+        <option value="$PROJECT_DIR$/demo/cssDisc/twocircle.html" />
+        <option value="$PROJECT_DIR$/demo/cssDisc/onecircle.html" />
+        <option value="$PROJECT_DIR$/demo/cssDisc/css/onecircle.css" />
+        <option value="$PROJECT_DIR$/demo/map/mapdemo.html" />
       </list>
     </option>
   </component>
@@ -122,10 +177,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-205" />
+    <option name="x" value="1418" />
+    <option name="y" value="14" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="962" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -143,8 +198,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,15 +222,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery_grid" />
+              <option name="myItemId" value="sampleShow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -189,87 +236,113 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap_table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webCommonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webCommonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webCommonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webCommonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navbar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webCommonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webCommonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webCommonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webCommonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="easyui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCommonDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCommonDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCommonDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCommonDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCommonDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCommonDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCommonDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCommonDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCommonDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCommonDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,15 +359,19 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="D:/node.js/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\webCommonDemo\demo\map" />
       <recent name="E:\GitHub\webCommonDemo\demo" />
-      <recent name="E:\GitHub\webCommonDemo\demo\modal\bootstrap" />
-      <recent name="E:\GitHub\webCommonDemo\sampleShow\menu" />
-      <recent name="E:\GitHub\webCommonDemo\demo\menu\icon" />
-      <recent name="E:\GitHub\webCommonDemo\demo\menu\easyui" />
+      <recent name="E:\GitHub\webCommonDemo\demo\cssDisc\css" />
+      <recent name="E:\GitHub\webCommonDemo\demo\cssDisc" />
+      <recent name="E:\GitHub\webCommonDemo\demo\cssDisc\icon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\webCommonDemo\resources\bootstrap\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -739,7 +816,13 @@
       <workItem from="1508131205913" duration="36000" />
       <workItem from="1508208461009" duration="782000" />
       <workItem from="1508227127548" duration="28000" />
-      <workItem from="1508228962371" duration="173000" />
+      <workItem from="1508228962371" duration="817000" />
+      <workItem from="1510905814660" duration="154000" />
+      <workItem from="1510905979192" duration="8000" />
+      <workItem from="1511921899890" duration="291000" />
+      <workItem from="1511922255399" duration="4000" />
+      <workItem from="1511922282949" duration="1358000" />
+      <workItem from="1512092611308" duration="4746000" />
     </task>
     <task id="LOCAL-00001" summary="【问题描述】：bootstrap中modal布局样式demo&#10;【问题解决】：bootstrap中modal布局样式demo&#10;【代码修改人】：倪红成">
       <created>1502714359948</created>
@@ -769,14 +852,21 @@
       <option name="project" value="LOCAL" />
       <updated>1504684668445</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="【问题描述】：增加table和自定义动态生成modal&#10;【问题解决】：增加table和自定义动态生成modal&#10;【代码修改人】：倪红成">
+      <created>1508229180419</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1508229180419</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23058000" />
+    <option name="totallyTimeSpent" value="30263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-205" width="1936" height="1056" extended-state="6" />
+    <frame x="1418" y="14" width="1936" height="962" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -792,8 +882,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19402985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -806,7 +897,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -819,7 +909,8 @@
     <MESSAGE value="【问题描述】：bootstrap中modal布局样式demo&#10;           【问题解决】：bootstrap中modal布局样式demo&#10;           【代码修改人】：倪红成" />
     <MESSAGE value="【问题描述】：bootstrap中modal布局样式demo&#10;【问题解决】：bootstrap中modal布局样式demo&#10;【代码修改人】：倪红成" />
     <MESSAGE value="【问题描述】：easyui侧边菜单栏demo&#10;【问题解决】：easyui侧边菜单栏demo&#10;【代码修改人】：倪红成" />
-    <option name="LAST_COMMIT_MESSAGE" value="【问题描述】：easyui侧边菜单栏demo&#10;【问题解决】：easyui侧边菜单栏demo&#10;【代码修改人】：倪红成" />
+    <MESSAGE value="【问题描述】：增加table和自定义动态生成modal&#10;【问题解决】：增加table和自定义动态生成modal&#10;【代码修改人】：倪红成" />
+    <option name="LAST_COMMIT_MESSAGE" value="【问题描述】：增加table和自定义动态生成modal&#10;【问题解决】：增加table和自定义动态生成modal&#10;【代码修改人】：倪红成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -830,120 +921,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/modal/easyui/iframe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/easyui/window.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/css/00_homework.css" />
-    <entry file="file://$PROJECT_DIR$/demo/navbar/bootstrap/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/menu/easyui/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/menu/easyui/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/menu/easyui/sidebar.css" />
-    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/easyui/window.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/easyui/window.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/navbar/bootstrap/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1881">
-          <caret line="99" column="61" lean-forward="false" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/navbar/bootstrap/navbar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/echart/bar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modal.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/easyui/window.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/navbar/bootstrap/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1881">
@@ -1100,27 +1077,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/navbar/bootstrap/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/layout/easyui/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/easyui/window.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/navbar/bootstrap/navbar.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1135,32 +1091,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modal.html">
+    <entry file="file://$PROJECT_DIR$/demo/modal/easyui/window.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="456">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modaltest.html">
+    <entry file="file://$PROJECT_DIR$/demo/navbar/bootstrap/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="247">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/addModal.html">
+    <entry file="file://$PROJECT_DIR$/demo/table/bootstrap_table/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508228974793" expanded="true" signature="1917:1965" ph="..." />
-            <marker date="1508228974793" expanded="true" signature="2059:2090" ph="..." />
-            <marker date="1508228974793" expanded="true" signature="2227:2252" ph="..." />
-            <marker date="1508228974793" expanded="true" signature="2595:2646" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/table/bootstrap_table/Lasttable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1168,7 +1123,166 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/layout/easyui/iframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modaltest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/modal/bootstrap/addModal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bootstrap/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/cssDisc/css/twocircle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="235" column="0" lean-forward="true" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/cssDisc/css/onecircle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="137" column="23" lean-forward="true" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/cssDisc/onecircle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/cssDisc/self3dcircle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/cssDisc/discDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/layout/easyui/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="95" lean-forward="true" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/jquery-chou-jiang/js/jQueryRotate.2.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/cssDisc/twocircle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/jquery-chou-jiang/js/jquery-1.8.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/jquery-chou-jiang/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/map/js/chart/k.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/map/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4845">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/map/js/chart/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1482">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/map/mapdemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4293">
+          <caret line="294" column="36" lean-forward="true" selection-start-line="285" selection-start-column="16" selection-end-line="294" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
